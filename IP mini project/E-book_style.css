@@ -1,0 +1,268 @@
+/* Global Styles */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html {
+    font-family: Roboto, sans-serif, Arial;
+    background: #f0f3fa;
+}
+
+.width-100 {
+    width: 100%;
+    float: left;
+}
+
+.width-20 {
+    width: 20%;
+    float: left;
+}
+
+.width-25 {
+    width: 25%;
+    float: left;
+}
+
+.width-30 {
+    width: 30%;
+    float: left;
+}
+
+.width-33 {
+    width: 33%;
+    float: left;
+}
+
+.width-40 {
+    width: 40%;
+    float: left;
+}
+
+.width-50 {
+    width: 50%;
+    float: left;
+}
+
+.width-60 {
+    width: 60%;
+    float: left;
+}
+
+.width-70 {
+    width: 70%;
+    float: left;
+}
+
+.width-80 {
+    width: 80%;
+    float: left;
+}
+
+.width-90 {
+    width: 90%;
+    float: left;
+}
+
+.width-10 {
+    width: 10%;
+    float: left;
+}
+
+.container {
+    width: 1500px;
+    margin: 0 auto;
+}
+
+.plr {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.margin-top-50 {
+    margin-top: 50px;
+}
+
+/* Header 1 STARTS */
+.top-header {
+    background: #2C3539;
+    padding: 5px 0px;
+    border-bottom: 1px solid #3131315e;
+}
+
+.news-list {
+    background: #fff;
+    color: red;
+    padding: 6px;
+    font-size: 20px;
+}
+
+.headquote {
+    font-size: 18px;
+    color: #ffffff;
+    width: 80%;
+}
+
+/* Header 3 STARTS */
+.header-menu {
+    position: relative;
+    box-shadow: 0px 2px 5px 0px #00000036;
+}
+
+.logo {
+    width: fit-content;
+    float: left;
+}
+
+.main-menu {
+    list-style: none;
+    margin-top: 30px; /* Reset margin */
+    float: right;
+}
+
+.main-menu a {
+    font-weight: 500;
+    color: #3a3a3a;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.main-menu li {
+    float: left;
+    padding: 12px 15px;
+}
+
+/* E-Book Container */
+.ebook-container {
+    margin: 50px 15px ; /* Adjust margin */
+}
+
+.ebook-list {
+    display: none;
+}
+
+.ebook-list.active {
+    display: block;
+}
+
+.ebook-card {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 15px;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.download-button {
+    display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Dropdown Styling */
+.semester-select {
+    width: 800px;  /* Adjust width */
+    height: 50px;  /* Adjust height */
+    font-size: 18px;  /* Increase font size */
+    padding: 10px;  /* Add padding */
+    border-radius: 10px;  /* Rounded corners */
+    border: 1px solid #000;  /* Border color */
+    background-color: #fff;  /* Background color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  /* Shadow */
+    cursor: pointer;  /* Pointer cursor */
+}
+
+.semester-select:hover {
+    border-color: #888;  /* Hover effect */
+}
+
+.semester-select::-ms-expand {
+    display: none;  /* Hide arrow on some browsers */
+}
+
+/* Footer Section */
+.footer {
+    background: #232F3E;
+    padding: 50px 0px;
+}
+
+.quicklink-menu {
+    list-style: none;
+    padding-left: 10px;
+}
+
+.quicklink-menu li a {
+    color: #fff;
+    line-height: 2.5;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.social-media {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.social-media li a img {
+    width: 30px;
+}
+
+.social-media li {
+    float: left;
+    padding: 0px 8px;
+}
+
+.quicklink-heading {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.get-in-touch {
+    list-style: none;
+    padding-left: 10px;
+}
+
+.get-in-touch li i {
+    color: #ed372c;
+    font-size: 20px;
+}
+
+.get-in-touch li {
+    color: #fff;
+    line-height: 2.5;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.footer-e-mail {
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-website {
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer2-bacbor {
+    background: #232F3E;
+    padding: 10px 0px;
+    border-top: 1px solid #898989;
+}
+
+.footer2-content {
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+}
